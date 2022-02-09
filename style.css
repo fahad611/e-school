@@ -89,7 +89,7 @@ nav {
   text-align: center;
   font-weight: bold;
 }
-.col-md-3 {
+.course-card{
   margin: 10px;
   border-radius: 20px;
 }
@@ -99,7 +99,7 @@ nav {
 .courses-text {
   padding: 15px;
 }
-.col-md-3:hover {
+.course-card:hover {
   box-shadow: 0 0 10px 5px silver;
 }
 .card-footers {
