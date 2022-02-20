@@ -14,21 +14,24 @@
     <title>E-school</title>
   </head>
   <body>
-    <header>
+    <header class="container-fluid">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light pt-5">
           <div>
             <a class="navbar-brand" href="#"
               ><img class="logo" src="./ICON/Logo.png" alt="logo"
             /></a>
           </div>
           <div class="navbar-nav">
-            <a class="nav-link active nav-element" aria-current="page" href="#"
+            <a
+              class="nav-link active mx-3 nav-element"
+              aria-current="page"
+              href="#"
               >Book</a
             >
-            <a class="nav-link active nav-element" href="#">Courses</a>
-            <a class="nav-link active nav-element" href="#">Blog</a>
-            <a class="nav-link active nav-element" href="#">Others</a>
+            <a class="nav-link active mx-3 nav-element" href="#">Courses</a>
+            <a class="nav-link active mx-3 nav-element" href="#">Blog</a>
+            <a class="nav-link active mx-3 nav-element" href="#">Others</a>
             <a href="" class="nav-element"
               ><button class="sing-in-button">Sing in</button></a
             >
@@ -54,40 +57,36 @@
         </div>
       </div>
     </header>
-    <main class="container">
-      <div class="row d-flex justify-content-center cards">
-        <div class="col-md-2 single-card">
-          <img class="card-logo" src="./ICON/book.png" alt="..." />
-
-          <h5 class="card-title">1500+ Topics</h5>
-          <p class="card-text">Learn Anything</p>
+    <main>
+      <section class="container">
+        <div class="row justify-content-center my-5">
+          <div class="col-sm-5 col-md m-3 text-center single-card">
+            <img class="card-logo" src="./ICON/book.png" alt="..." />
+            <h5 class="card-title">1500+ Topics</h5>
+            <p class="card-text">Learn Anything</p>
+          </div>
+          <div class="col-sm-5 col-md m-3 text-center single-card">
+            <img class="card-logo" src="./ICON/Student.png" alt="..." />
+            <h5 class="card-title">1800+ Students</h5>
+            <p class="card-text">Learn Anything</p>
+          </div>
+          <div class="col-sm-5 col-md m-3 text-center single-card">
+            <img class="card-logo" src="./ICON/Test.png" alt="..." />
+            <h5 class="card-title">20K+ Text Token</h5>
+            <p class="card-text">Learn Anything</p>
+          </div>
+          <div class="col-sm-5 col-md m-3 text-center single-card">
+            <img class="card-logo" src="./ICON/Students.png" alt="..." />
+            <h5 class="card-title">2000+ Student</h5>
+            <p class="card-text">Learn Anything</p>
+          </div>
         </div>
-        <div class="col-md-2 single-card">
-          <img class="card-logo" src="./ICON/Student.png" alt="..." />
+      </section>
 
-          <h5 class="card-title">1800+ Students</h5>
-          <p class="card-text">Learn Anything</p>
-        </div>
-        <div class="col-md-2 single-card">
-          <img class="card-logo" src="./ICON/Test.png" alt="..." />
-
-          <h5 class="card-title">20K+ Text Token</h5>
-          <p class="card-text">Learn Anything</p>
-        </div>
-        <div class="col-md-2 single-card">
-          <img class="card-logo" src="./ICON/Students.png" alt="..." />
-
-          <h5 class="card-title">2000+ Student</h5>
-          <p class="card-text">Learn Anything</p>
-        </div>
-      </div>
-
-      <div class="courses">
-        <div>
-          <h3 class="courses-header">Online Courses</h3>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-3 course-card">
+      <section class="container">
+        <h3 class="text-center fw-bold my-3">Online Courses</h3>
+        <div class="row justify-content-center">
+          <div class="col-md-4 course-card">
             <img
               src="./Photos/Morder pyschology.png"
               class="card-img-top courses-img"
@@ -98,23 +97,20 @@
               <p class="card-text">Designation</p>
               <button class="get-started-button" id="">Buy Course</button>
             </div>
-
-            <div class="card-footers d-flex">
+            <div class="d-flex m-3">
               <div
                 class="calendar d-flex align-items-center justify-content-start"
               >
                 <img class="card-footer-img" src="./ICON/calendar.png" alt="" />
-
                 <span class="footer-text">Start 6th March, 2022</span>
               </div>
-
               <div class="seats d-flex align-items-center justify-content-end">
                 <img class="card-footer-img" src="./ICON/people.png" alt="" />
                 <spam class="footer-text">60 Seats</spam>
               </div>
             </div>
           </div>
-          <div class="col-md-3 course-card">
+          <div class="col-md-4 course-card">
             <img
               src="./Photos/Morder psyc.png"
               class="card-img-top courses-img"
@@ -125,7 +121,7 @@
               <p class="card-text">Designation</p>
               <button class="get-started-button" id="">Buy Course</button>
             </div>
-            <div class="card-footers d-flex">
+            <div class="d-flex m-3">
               <div
                 class="calendar d-flex align-items-center justify-content-start"
               >
@@ -138,7 +134,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 course-card">
+          <div class="col-md-4 course-card">
             <img
               src="./Photos/Morder pychons.png"
               class="card-img-top courses-img"
@@ -149,7 +145,7 @@
               <p class="card-text">Designation</p>
               <button class="get-started-button" id="">Buy Course</button>
             </div>
-            <div class="card-footers d-flex">
+            <div class="d-flex m-3">
               <div
                 class="calendar d-flex align-items-center justify-content-start"
               >
@@ -163,57 +159,58 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="testimonial container">
-        <h1>Testimonial</h1>
-        <div
-          class="row d-flex justify-content-center align-items-center testimonial-items"
-        >
-          <div class="test-img-div col-md-4 col-sm-12">
+      </section>
+
+      <section class="container">
+        <h1 class="text-center mt-5">Testimonial</h1>
+        <div class="row justify-content-center align-items-center my-3">
+          <div class="text-end col-md-3 col-sm-12">
             <img class="testimonial-img" src="./Photos/Man.png" alt="" />
           </div>
-          <div class="testimonial-text col-md-8 col-sm-12">
+          <div class="testimonial-text text-center col-md-8 col-sm-12">
             There are many variantion of passages of Lorem Impsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised woeds which don;t look even slightly
             believable.
           </div>
         </div>
-      </div>
+      </section>
     </main>
-    <footer class="">
-      <div class="container row d-flex justify-content-center mt-5">
-        <div class="col-md-4 ft-text">
-          Millions of people of all ages and from around the workd are improving
-          their lives with us
-        </div>
-        <div class="col-md-2 ft-text">
-          <h3 class="fs-5">Course</h3>
-          <p>Graphic Design</p>
-          <p>Web Design</p>
-          <p>Business</p>
-          <p>Marketing</p>
-          <p>Engineering</p>
-        </div>
-        <div class="col-md-2 ft-text">
-          <h3 class="fs-5">Terms</h3>
-          <p>Graphic Design</p>
-          <p>Web Design</p>
-          <p>Business</p>
-          <p>Marketing</p>
-          <p>Engineering</p>
-        </div>
-        <div class="col-md-3 ft-text">
-          <h3 class="fs-5">Useful Link</h3>
-          <p>Graphic Design</p>
-          <p>Web Design</p>
-          <p>Business</p>
-          <p>Marketing</p>
-          <p>Engineering</p>
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row justify-content-center m-5">
+          <div class="col-md-4 text-center p-5">
+            Millions of people of all ages and from around the workd are
+            improving their lives with us
+          </div>
+          <div class="text-center col-md p-5">
+            <h3 class="fs-5">Course</h3>
+            <p>Graphic Design</p>
+            <p>Web Design</p>
+            <p>Business</p>
+            <p>Marketing</p>
+            <p>Engineering</p>
+          </div>
+          <div class="text-center col-md p-5">
+            <h3 class="fs-5">Terms</h3>
+            <p>Graphic Design</p>
+            <p>Web Design</p>
+            <p>Business</p>
+            <p>Marketing</p>
+            <p>Engineering</p>
+          </div>
+          <div class="text-center col-md p-5">
+            <h3 class="fs-5">Useful Link</h3>
+            <p>Graphic Design</p>
+            <p>Web Design</p>
+            <p>Business</p>
+            <p>Marketing</p>
+            <p>Engineering</p>
+          </div>
         </div>
       </div>
       <div class="text-center pt-5">
-        <small>Copyright &copy 2022 Fahad611.com</small>
+        <small>Copyright &copy 2022 Fahad-611.com</small>
       </div>
     </footer>
     <script

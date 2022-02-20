@@ -1,18 +1,19 @@
+*,*::before, *::after{
+  box-sizing: border-box;
+  margin: 0%;
+}
 header {
   background-color: #f0fff0;
   /* height: 576px; */
   
 }
-nav {
-  padding-top: 30px !important;
-}
 .logo {
   width: 50%;
 }
-.nav-element {
+/* .nav-element {
   margin: 0px 20px;
   font-weight: bold;
-}
+} */
 .sing-in-button {
   color: white;
   background: #21b573;
@@ -54,14 +55,6 @@ nav {
   display: flex;
   justify-content: center;
 }
-.cards {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  padding: 30px !important;
-  margin-top: 50px !important;
-  
-}
 .card-logo {
   width: 40%;
   margin: 30px;
@@ -69,29 +62,18 @@ nav {
 .single-card {
   border-radius: 20px;
   background-color: #f8fffb;
-  justify-content: center;
-  text-align: center;
-  padding: 10px;
-  margin: 15px;
   transition: 0.5s all;
 }
 .single-card:hover {
   background-color: white;
   box-shadow: 0 0 10px 5px silver;
 }
-.courses {
-  width: 100%;
-  overflow-x: hidden;
-  margin-top: 50px !important;
-  
-}
-.courses-header {
-  text-align: center;
-  font-weight: bold;
-}
 .course-card{
-  margin: 10px;
   border-radius: 20px;
+  transition: 0.5s all;
+}
+.course-card:hover {
+  box-shadow: 0 0 10px 5px silver;
 }
 .courses-img {
   padding: 15px;
@@ -99,52 +81,21 @@ nav {
 .courses-text {
   padding: 15px;
 }
-.course-card:hover {
-  box-shadow: 0 0 10px 5px silver;
-}
-.card-footers {
-  /* border: 1px solid red; */
-  margin: 5px;
-  /* justify-content: space-between; */
-}
 .card-footer-img {
   /* border: 1px solid red; */
-  width: 15%;
+  width: 20%;
 }
 .footer-text {
   font-size: 10px;
   margin-left: 10px;
   /* border: 1px solid red; */
 }
-.testimonial {
-  width: 100%;
-  margin-top: 50px !important;
-  ;
-  /* overflow-x: hidden; */
-}
-.testimonial h1 {
-  text-align: center;
-  margin: 30px 0px;
-}
-.testimonial-items {
-  padding: 3%;
-}
-.test-img-div {
-  text-align: center;
-  
-  text-align: end;
-  padding: 0 50px;
-}
 .testimonial-img {
-  width: 50%;
+  width: 100%;
 }
 @media only screen and (max-width:767px){
-  .test-img-div{
-    text-align: center;
-  }
   .testimonial-text {
-    text-align: center;
-    padding: 20px;
+    padding:30px;
   }
   .ft-text{
     padding: 40px 0px;
